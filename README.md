@@ -18,13 +18,13 @@ Bienvenido al repositorio oficial del curso **Introducción a JSON-Server-Auth y
 
 | Módulo | Descripción | Enlace   |
 | :---- | :---- | :---- |
-| **Módulo 1** | Fundamentos y Configuración del Entorno | [Ver Módulo 1](http://docs.google.com/modulo1/README.md) |
-| **Módulo 2** | Autenticación, Roles y Manejo de Tokens | [Ver Módulo 2](http://docs.google.com/modulo2/README.md) |
-| **Módulo 3** | Pruebas de Endpoints con Clientes HTTP (Postman/Insomnia/Thunder) | [Ver Módulo 3](http://docs.google.com/modulo3/README.md) |
-| **Módulo 4** | Integración Frontend con React | [Ver Módulo 4](http://docs.google.com/modulo4/README.md) |
-| **Módulo 5** | Registro de Usuarios, Autenticación y Criptografía | [Ver Módulo 5](http://docs.google.com/modulo-5-registro-autenticacion-criptografia/README.md) |
-| **Módulo 6** | Simulación de JWT, Contexto Global y Rutas Protegidas | [Ver Módulo 6](http://docs.google.com/modulo-6-simulacion-jwt-contexto-rutas/README.md) |
-| **Módulo 7** | CRUD de Productos Protegido e Integración Backend-Frontend | [Ver Módulo 7](http://docs.google.com/modulo-7-crud-productos-protegido-integracion/README.md) |
+| **Módulo 1** | Fundamentos y Configuración del Entorno | [Ver Módulo 1](./modulo1/README.md) |
+| **Módulo 2** | Autenticación, Roles y Manejo de Tokens | [Ver Módulo 2](./modulo2/README.md) |
+| **Módulo 3** | Pruebas de Endpoints con Clientes HTTP (Postman/Insomnia/Thunder) | [Ver Módulo 3](./modulo3/README.md) |
+| **Módulo 4** | Integración Frontend con React | [Ver Módulo 4](./modulo4/README.md) |
+| **Módulo 5** | Registro de Usuarios, Autenticación y Criptografía | [Ver Módulo 5](./modulo-5-registro-autenticacion-criptografia/README.md) |
+| **Módulo 6** | Simulación de JWT, Contexto Global y Rutas Protegidas | [Ver Módulo 6](./modulo-6-simulacion-jwt-contexto-rutas/README.md) |
+| **Módulo 7** | CRUD de Productos Protegido e Integración Backend-Frontend | [Ver Módulo 7](./modulo-7-crud-productos-protegido-integracion/README.md) |
 
 ## ---
 
