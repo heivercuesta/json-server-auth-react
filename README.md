@@ -1,181 +1,106 @@
-<<<<<<< HEAD
+# **Curso: Introducción a JSON-Server-Auth y React FrontEnd**
 
-# Curso: Introducción a JSON-Server-Auth y React FrontEnd
+Bienvenido al repositorio oficial del curso **Introducción a JSON-Server-Auth y React FrontEnd**. Este curso está diseñado para dominar la simulación de APIs RESTful con autenticación basada en JWT, encriptación de credenciales con Bcrypt y la integración completa con una aplicación cliente desarrollada en React.
 
-Bienvenido al repositorio oficial del curso **Introducción a JSON-Server-Auth y React FrontEnd**. Este curso está diseñado para dominar la simulación de APIs RESTful con autenticación basada en JWT, encriptación de credenciales y la integración completa con una aplicación cliente desarrollada en React.
+## ---
 
----
+**🎯 Objetivos del Curso**
 
-## 📑 Agenda General del Curso
+> 1. Comprender los principios de la arquitectura RESTful y la seguridad web basada en **JSON Web Tokens (JWT)**.  
+> 2. Simular un backend completo con persistencia de datos en JSON, encriptación de contraseñas (bcryptjs) y control de acceso por permisos/roles.  
+> 3. Automatizar y validar pruebas de integración con herramientas como **Postman**, **Insomnia** y **Thunder Client**.  
+> 4. Desarrollar una Single Page Application (SPA) en React con **AuthContext**, manejo de rutas protegidas (ProtectedRoute) e interceptores HTTP con Axios.  
+> 5. Construir un **CRUD completo y protegido de productos** integrando el flujo de registro, login y gestión de tokens.
 
-| Módulo | Descripción | Enlace |
-| :--- | :--- | :--- |
-| **Módulo 1** | Fundamentos y Configuración del Entorno | [Ver Módulo 1](./modulo1/README.md) |
-| **Módulo 2** | Autenticación, Roles y Manejo de Tokens | [Ver Módulo 2](./modulo2/README.md) |
-| **Módulo 3** | Pruebas de Endpoints con Clientes HTTP (Postman/Insomnia/Thunder) | [Ver Módulo 3](./modulo3/README.md) |
-| **Módulo 4** | Integración Frontend con React | [Ver Módulo 4](./modulo4/README.md) |
+## ---
 
----
+**📑 Agenda General del Curso**
 
-## 🚀 Estructura del Repositorio
+| Módulo | Descripción | Enlace   |
+| :---- | :---- | :---- |
+| **Módulo 1** | Fundamentos y Configuración del Entorno | [Ver Módulo 1](http://docs.google.com/modulo1/README.md) |
+| **Módulo 2** | Autenticación, Roles y Manejo de Tokens | [Ver Módulo 2](http://docs.google.com/modulo2/README.md) |
+| **Módulo 3** | Pruebas de Endpoints con Clientes HTTP (Postman/Insomnia/Thunder) | [Ver Módulo 3](http://docs.google.com/modulo3/README.md) |
+| **Módulo 4** | Integración Frontend con React | [Ver Módulo 4](http://docs.google.com/modulo4/README.md) |
+| **Módulo 5** | Registro de Usuarios, Autenticación y Criptografía | [Ver Módulo 5](http://docs.google.com/modulo-5-registro-autenticacion-criptografia/README.md) |
+| **Módulo 6** | Simulación de JWT, Contexto Global y Rutas Protegidas | [Ver Módulo 6](http://docs.google.com/modulo-6-simulacion-jwt-contexto-rutas/README.md) |
+| **Módulo 7** | CRUD de Productos Protegido e Integración Backend-Frontend | [Ver Módulo 7](http://docs.google.com/modulo-7-crud-productos-protegido-integracion/README.md) |
 
-```text
-.
-├── README.md
-├── modulo1/
-│   └── README.md
-├── modulo2/
-│   └── README.md
-├── modulo3/
-│   └── README.md
-└── modulo4/
-    └── README.md
-```
+## ---
 
----
+**🚀 Estructura del Repositorio**
 
-## 🎯 Objetivos del Curso
-1. Comprender los principios de la arquitectura RESTful y seguridad web con JSON Web Tokens (JWT).
-2. Simular un backend completo con persistencia en JSON y control de acceso por roles/propietario.
-3. Automatizar y validar pruebas de integración con herramientas como Postman, Insomnia y Thunder Client.
-4. Desarrollar una SPA en React con gestión global de estado de sesión, rutas protegidas e interceptores de peticiones HTTP.
+`.`  
+`├── README.md`  
+`├── modulo1/`  
+`│   └── README.md`  
+`├── modulo2/`  
+`│   └── README.md`  
+`├── modulo3/`  
+`│   └── README.md`  
+`├── modulo4/`  
+`│   └── README.md`  
+`├── modulo-5-registro-autenticacion-criptografia/`  
+`│   ├── README.md`  
+`│   ├── ejercicios/`  
+`│   │   ├── 01-esquema-db-usuarios.json`  
+`│   │   ├── 02-script-hash-bcrypt.js`  
+`│   │   └── 03-peticiones-registro-login.http`  
+`│   └── taller-practico/`  
+`│       └── solucion/`  
+`│           ├── components/`  
+`│           │   ├── RegisterForm.jsx`  
+`│           │   └── LoginForm.jsx`  
+`│           └── services/`  
+`│               └── authService.js`  
+`├── modulo-6-simulacion-jwt-contexto-rutas/`  
+`│   ├── README.md`  
+`│   ├── ejercicios/`  
+`│   │   ├── 01-decodificador-jwt.js`  
+`│   │   ├── 02-auth-context.jsx`  
+`│   │   └── 03-protected-route.jsx`  
+`│   └── taller-practico/`  
+`│       └── solucion/`  
+`│           ├── components/`  
+`│           │   └── Navbar.jsx`  
+`│           └── pages/`  
+`│               ├── Home.jsx`  
+`│               └── Dashboard.jsx`  
+`└── modulo-7-crud-productos-protegido-integracion/`  
+    `├── README.md`  
+    `├── ejercicios/`  
+    `│   ├── 01-axios-config.js`  
+    `│   ├── 02-product-service.js`  
+    `│   └── 03-hooks-crud.js`  
+    `└── taller-practico/`  
+        `└── solucion/`  
+            `├── components/`  
+            `│   ├── ProductForm.jsx`  
+            `│   ├── ProductList.jsx`  
+            `│   └── ProductCard.jsx`  
+            `└── pages/`  
+                `└── ProductsPage.jsx`
 
+## ---
 
+**🛠️ Instrucciones de Instalación y Ejecución**
 
+### **1\. Requisitos Previos**
 
+> * Node.js (v16 o superior)  
+> * npm o yarn
 
-# Documentación General: Avance Módulos 5, 6 y 7 (React + json-server-auth)
+### **2\. Configuración e Inicio del Servidor Simulado (json-server-auth)**
 
-Este archivo comprimido contiene la implementación estructurada y detallada de las tres unidades de aprendizaje solicitadas para la integración de Frontend (React) con la API simulada de backend (`json-server-auth`).
+Instala globalmente o de forma local las dependencias requeridas:  
+`npm install -g json-server json-server-auth bcryptjs`
 
----
+Para iniciar el backend simulado escuchando en el puerto 3000 con el archivo base de usuarios:  
+`json-server-auth modulo-5-registro-autenticacion-criptografia/ejercicios/01-esquema-db-usuarios.json --port 3000`
 
-## Estrategia Pedagógica y de Desarrollo
+### **3\. Ejecución del Frontend (React)**
 
-El contenido se ha dividido en tres módulos independientes y progresivos:
-
-1. **Módulo 5: Registro de Usuarios, Autenticación y Criptografía**
-   - Hashing de contraseñas con `bcryptjs`.
-   - Esquemas de usuarios y simulación de bases de datos.
-   - Componentes de React independientes para `RegisterForm` y `LoginForm`.
-
-2. **Módulo 6: Simulación de JWT, Contexto Global y Rutas Protegidas**
-   - Utilidad de decodificación manual de Tokens JWT.
-   - Manejo centralizado de sesión mediante `AuthContext` y `AuthProvider`.
-   - Guard de navegación (`ProtectedRoute`) para restringir el acceso a usuarios no autenticados.
-
-3. **Módulo 7: CRUD de Productos Protegido e Integración Backend-Frontend**
-   - Configuración de clientes HTTP con interceptores (Axios) para inyectar la cabecera `Authorization: Bearer <token>`.
-   - Servicio modular de productos (`getProducts`, `createProduct`, `updateProduct`, `deleteProduct`).
-   - Hooks personalizados (`useProducts`) y componentes visuales (`ProductForm`, `ProductList`, `ProductsPage`).
-
----
-
-## Estructura de Directorios
-
-```text
-modulos-react-jsonserver-auth/
-├── README.md (Documentación General)
-├── modulo-5-registro-autenticacion-criptografia/
-│   ├── README.md
-│   ├── ejercicios/
-│   │   ├── 01-esquema-db-usuarios.json
-│   │   ├── 02-script-hash-bcrypt.js
-│   │   └── 03-peticiones-registro-login.http
-│   └── taller-practico/
-│       └── solucion/
-│           ├── components/
-│           │   ├── RegisterForm.jsx
-│           │   └── LoginForm.jsx
-│           └── services/
-│               └── authService.js
-├── modulo-6-simulacion-jwt-contexto-rutas/
-│   ├── README.md
-│   ├── ejercicios/
-│   │   ├── 01-decodificador-jwt.js
-│   │   ├── 02-auth-context.jsx
-│   │   └── 03-protected-route.jsx
-│   └── taller-practico/
-│       └── solucion/
-│           ├── components/
-│           │   └── Navbar.jsx
-│           └── pages/
-│               ├── Home.jsx
-│               └── Dashboard.jsx
-└── modulo-7-crud-productos-protegido-integracion/
-    ├── README.md
-    ├── ejercicios/
-    │   ├── 01-axios-config.js
-    │   ├── 02-product-service.js
-    │   └── 03-hooks-crud.js
-    └── taller-practico/
-        └── solucion/
-            ├── components/
-            │   ├── ProductForm.jsx
-            │   ├── ProductList.jsx
-            │   └── ProductCard.jsx
-            └── pages/
-                └── ProductsPage.jsx
-=======
-# Curso: Introducción a JSON-Server-Auth y React FrontEnd
-
-Bienvenido al repositorio oficial del curso **Introducción a JSON-Server-Auth y React FrontEnd**. Este curso está diseñado para dominar la simulación de APIs RESTful con autenticación basada en JWT, encriptación de credenciales y la integración completa con una aplicación cliente desarrollada en React.
-
----
-
-## 📑 Agenda General del Curso
-
-| Módulo | Descripción | Enlace |
-| :--- | :--- | :--- |
-| **Módulo 1** | Fundamentos y Configuración del Entorno | [Ver Módulo 1](./modulo1/README.md) |
-| **Módulo 2** | Autenticación, Roles y Manejo de Tokens | [Ver Módulo 2](./modulo2/README.md) |
-| **Módulo 3** | Pruebas de Endpoints con Clientes HTTP (Postman/Insomnia/Thunder) | [Ver Módulo 3](./modulo3/README.md) |
-| **Módulo 4** | Integración Frontend con React | [Ver Módulo 4](./modulo4/README.md) |
-
----
-
-## 🚀 Estructura del Repositorio
-
-```text
-.
-├── README.md
-├── modulo1/
-│   └── README.md
-├── modulo2/
-│   └── README.md
-├── modulo3/
-│   └── README.md
-└── modulo4/
-    └── README.md
->>>>>>> b3536196279008900999d9fa7d581967e9364422
-```
-
----
-
-<<<<<<< HEAD
-## Instrucciones de Instalación y Ejecución
-
-### 1. Requisitos Previos
-- Node.js (v16+)
-- npm / yarn
-
-### 2. Configuración del Servidor Simulado (`json-server-auth`)
-Instalar globalmente o de forma local las dependencias necesarias:
-```bash
-npm install -g json-server json-server-auth bcryptjs
-```
-
-Para iniciar el servidor con el archivo de base de datos base:
-```bash
-json-server-auth modulo-5-registro-autenticacion-criptografia/ejercicios/01-esquema-db-usuarios.json --port 3000
-```
-
-### 3. Ejecución del Frontend en React
-Copiar los archivos de los talleres prácticos a su proyecto React (Vite / CRA) y verificar que las peticiones se dirijan al puerto local `http://localhost:3000`.
-=======
-## 🎯 Objetivos del Curso
-1. Comprender los principios de la arquitectura RESTful y seguridad web con JSON Web Tokens (JWT).
-2. Simular un backend completo con persistencia en JSON y control de acceso por roles/propietario.
-3. Automatizar y validar pruebas de integración con herramientas como Postman, Insomnia y Thunder Client.
-4. Desarrollar una SPA en React con gestión global de estado de sesión, rutas protegidas e interceptores de peticiones HTTP.
->>>>>>> b3536196279008900999d9fa7d581967e9364422
+> 1. Navega a tu aplicación en React (creada con Vite o Create React App).  
+> 2. Asegúrate de instalar Axios y React Router DOM para el manejo de peticiones e interceptores:  
+>    `npm install axios react-router-dom`  
+> 3. Copia los componentes, hooks y contextos de los módulos 5, 6 y 7 dentro de tu carpeta src/ para habilitar el flujo completo de Login, Registro, Protección de Rutas y CRUD de Productos.
