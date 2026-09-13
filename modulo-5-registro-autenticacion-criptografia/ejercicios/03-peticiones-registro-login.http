@@ -1,0 +1,18 @@
+### Registro de nuevo usuario
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+  "email": "desarrollador@correo.com",
+  "password": "PasswordSegura123*",
+  "name": "Juan Pérez"
+}
+
+### Login de usuario
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+  "email": "desarrollador@correo.com",
+  "password": "PasswordSegura123*"
+}

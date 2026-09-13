@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@example.com",
+      "password": "$2a$10$wT8KzUvA40l3kM/7L3fXceX98Ue30P.hR99H8Yj.F1n.N.4kU2q52",
+      "name": "Administrador Sistema",
+      "role": "admin"
+    }
+  ],
+  "products": []
+}
